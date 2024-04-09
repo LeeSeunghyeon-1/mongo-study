@@ -10,4 +10,5 @@ import java.util.List;
 @Repository
 public interface MemberRepository extends MongoRepository<Member, ObjectId> {
     public List<Member> findByName(String name);
+
 }
